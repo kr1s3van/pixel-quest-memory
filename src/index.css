@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* --- Masquer la barre de scroll globalement --- */
+*::-webkit-scrollbar {
+    display: none !important;
+}
+
+html, body {
+    scrollbar-width: none !important; 
+    -ms-overflow-style: none !important;  
+    overflow-x: hidden; 
+}
